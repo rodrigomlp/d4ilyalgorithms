@@ -27,7 +27,7 @@ swapped with 2 bits starting from 4th position (from right side)
 def swapBits(x,p1,p2,n):
     while(n):
                 if (x>>i)&1)!=((x>>j)&1)):	
-                    int bitmask = 1<<p1 | 1<<p2
+                    bitmask = 1<<p1 | 1<<p2
                     x = x^bitmask
                 
                 i+= 1
