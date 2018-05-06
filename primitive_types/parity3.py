@@ -1,4 +1,4 @@
-def partiy(x):
+def parity(x):
 	MASK_SIZE = 2
 	BIT_MASK = 0xFFFF
 	
